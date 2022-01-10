@@ -18,11 +18,13 @@ body {
     background-size: cover;
     color: var(--color3);
     justify-content: space-evenly;
+    padding: 15px;
 }
 
 h1 {
-    font-size: 3.5rem;
-    line-height: 4.5rem;
+    font-size: 4rem;
+    line-height: 5rem;
+    padding: 10px;
 }
   
 h2 {
@@ -38,18 +40,19 @@ h3 {
 h4 {
     font-size: 2rem;
 }
-  
+
 h5 {
     font-size: 1.5rem;
 }
 
 h6 {
-    font-size: .7rem;
+    font-size: 1rem;
     line-height: 3rem;
-    text-align: center;
 }
 
 header {
+    border: 2px;
+    border-style: double;
     padding: 2%;
 }
 
@@ -96,8 +99,9 @@ nav a:hover {
     line-height: 1.2rem;
 }
 
-#bio p {
-    padding: 5px;
+ul {
+    list-style-type: circle;
+    padding: 15px;
 }
 
 #projects {
@@ -112,15 +116,18 @@ nav a:hover {
     justify-content: center;
 }
 
+.project-list #first {
+    display: block;
+    padding: 40px;
+    max-width: 500px;
+    justify-content: center;
+}
+
 .project-list article {
     display: block;
     padding: 40px;
     max-width: 400px;
     justify-content: center;
-}
-
-.project-list ul {
-    list-style-type: circle;
 }
 
 #influences {
