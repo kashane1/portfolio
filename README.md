@@ -18,27 +18,27 @@ Requirements:
 -----------
 Process:
 -----------
-My intentions were to clean up the .html and .css file and make them more readable to next programmer. In the .html file, I labeled a header and footer section so that the all the sections have more of a sequencial order. In the css file I was able to combine a lot of similar attributes. I also added more specificity to certain selectors in order to clarify which elements they will affect. A few selector were out of order, meaning they did not read top to bottom along with the html. I rearranged them to parallel the .html file and I also added comments to help explain them. 
-
-My goal was to meet accessibility standards. The files now contain semantic HTML elements. They follow a logical structure independent of styling and positioning. All the icon and image elements have accessible alt attributes. The heading attributes fall in sequential order.
+My original intention was to make a bare bones webpage for my portfolio and then update it in the following months. But I enjoyed the process too much and wanted to fill out the whole page as best as I could. I still have plenty more to add, but for now my portfolio gives a good teaser of my software engineering capabailities. 
 
 -----------
 Extra:
 -----------
-1. I added a favicon next to the title on the browser page/tab.
-2. I tried really hard to get an alt tag for the background image and the best solution I found was to add text in the div, that then gets hidden if the image is loaded. 
+1. I tried to incorporate new css that we learned as well as javascript
+2. I added a fun easter egg or two in there!
 
 -----------
 ```
-*The following screenshot was taken at 90% zoom on a vertical monitor:
+preview of my portfolio:
 ```
-![Image](./assets/images/hw1screenshot.png "screenshot of Horiseon Homepage")
+![Image](./assets/images/screenshot3.jpg "screenshot of my portflio")
 
 -----------
 Cited:
 -----------
 https://www.w3schools.com/ - references to html and css
 
-https://en.wikipedia.org/wiki/Markdown - .md syntax
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/ - css flex box help
+
+https://favicon.io/ - favicon generator
 
 -----------
