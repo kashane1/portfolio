@@ -1,0 +1,125 @@
+/* a universal tag for all the common attributes */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
+
+/* provides a background color for all of the body of the webpage */
+body {
+    background-color: #d9dcd6;
+}
+
+/* used <header> tags instead of more classes to clean up the .html file some more */
+header {
+    padding: 20px;
+    background-color: #2a607c;
+}
+
+/* specific attributes for the h1 line in the header */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* adds a unique color to the letters "seo" in the main logo at the top of the webpage */
+header h1 #seo {
+    color: #d9dcd6;
+}
+
+/* this element, inside the header section, contains the links on the top of the page */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+/* more edits to the specific links inside the header section */
+header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* adds color and removes the hyperliink decoration to the a tags under header */
+header a {
+    text-decoration: none;
+}
+
+/* this .hero container contains the background image */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+    color:transparent; overflow:hidden; /* hides the alt text used for the background image */
+}
+
+/* labeled the next element 'section' with the main information under the hjero image */
+section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* for the images inside the content element */
+section img {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+/* moved float-left to the parent ".content img" selector, making it the default. then using float-right when I want to move an element to the right of the parent element */
+#float-right {
+    float: right;
+    margin-left: 20px;
+}
+
+/* attributes for the elements within the content element */
+section article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+}
+
+/* increasing fontsize on h2 within section tag */
+section h2 {
+    font-size: 36px;
+}
+
+/* all attributes for benefits within the aside tag */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: #2589bd;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+/* attributes for the images within the benefits div */
+aside img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* used footer tags instead of classes to clean up the .html file some more */
+footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+/* adjusting text color in the footer */
+footer h4, footer p {
+    color: black;
+}
