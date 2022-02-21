@@ -47,7 +47,7 @@ h5 {
 }
 
 h6 {
-    font-size: 1rem;
+    font-size: .7rem;
     line-height: 3rem;
 }
 
@@ -121,23 +121,23 @@ ul {
     justify-content: center;
 }
 
-.project-list #first {
+.project-list article {
     display: block;
     padding: 40px;
     max-width: 500px;
     justify-content: center;
 }
 
-.project-list article {
-    display: block;
-    padding: 40px;
-    max-width: 400px;
-    justify-content: center;
-}
-
 .project-list img:hover {
     box-shadow: inset 0px 0px 5px var(--color3), 0 0 12px var(--color1);
 }
+
+a h4 {
+    color: var(--color1);
+    margin: 5px;
+    box-shadow: inset 0px 0px 5px var(--color3), 0 0 12px var(--color1);
+}
+
 
 #influences {
     display: inline-block;
