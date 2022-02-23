@@ -24,7 +24,6 @@ body {
 h1 {
     font-size: 4rem;
     line-height: 5rem;
-    padding: 10px;
 }
   
 h2 {
@@ -34,6 +33,7 @@ h2 {
   
 h3 {
     font-size: 2.5rem;
+    line-height: 3rem;
 }
 
 /* 2rem = 20px (2 * 10px) */
@@ -44,6 +44,7 @@ h4 {
 
 h5 {
     font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 h6 {
@@ -52,10 +53,14 @@ h6 {
 }
 
 header {
-    margin: 15px;
+    margin: 25px;
     border: 2px;
     border-style: double;
     padding: 15px;
+}
+
+#below-title {
+    padding: 10px;
 }
 
 nav {
@@ -135,24 +140,39 @@ ul {
 a h4 {
     color: var(--color1);
     margin: 5px;
+}
+
+a h4:hover {
     box-shadow: inset 0px 0px 5px var(--color3), 0 0 12px var(--color1);
 }
 
+#bottom-div {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 #influences {
+    margin: 25px;
     display: inline-block;
-    flex-wrap: wrap;
     padding: 40px;
 }
 
 #contact {
+    margin: 25px;
     display: inline-block;
     flex-wrap: wrap;
     padding: 40px;
 }
 
+
 #contact a {
-    color: var(--color3);
+    color: var(--color1);
+    padding: 5px 12px;
+    text-decoration: none;
+}
+
+#contact p {
+    line-height: 2rem;
 }
 
 #contact a:hover {
@@ -166,10 +186,19 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    h1 {
+        font-size: 3.4rem;
+        line-height: 3.8rem;
+    }
+
     nav {
         flex-direction: column;
         justify-content: center;
         font-size: 1.5rem;
     }
 
+    #bottom-div {
+        display: flex;
+        display: inline-block;
+    }
 }
