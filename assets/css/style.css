@@ -110,7 +110,7 @@ nav a:hover {
 }
 
 ul {
-    list-style-type: circle;
+    list-style-type: none;
     padding: 15px;
 }
 
@@ -135,6 +135,18 @@ ul {
 
 .project-list img:hover {
     box-shadow: inset 0px 0px 5px var(--color3), 0 0 12px var(--color1);
+}
+
+li a {
+    color: var(--color1);
+    padding: 5px 12px;
+    text-decoration: none;
+    line-height: 2rem;
+}
+
+li a:hover {
+    background-color: var(--color1);
+    color: var(--color2);
 }
 
 a h4 {
@@ -200,5 +212,6 @@ footer {
     #bottom-div {
         display: flex;
         display: inline-block;
+        text-align: center;
     }
 }
