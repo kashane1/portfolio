@@ -137,6 +137,10 @@ ul {
     box-shadow: inset 0px 0px 5px var(--color3), 0 0 12px var(--color1);
 }
 
+ul li {
+    padding: .33rem;
+}
+
 li a {
     color: var(--color1);
     padding: 5px 12px;

@@ -19,7 +19,7 @@ Requirements:
 -----------
 Process:
 -----------
-My original intention was to make a bare bones webpage for my portfolio and then update it in the following months. But I enjoyed the process too much and wanted to fill out the whole page as best as I could. I still have plenty more to add, but for now my portfolio gives a good teaser of my software engineering capabailities. 
+I enjoyed updating my portfolio as time passed. I could really feel the changes in my coding abilities. It was fun to see how far I've come since the beginning of my coding journey. I am also well aware of how much farther I will take this skillset. This still feels very elementary compared to the things I know I will accomplish in this career. The best is yet to come.
 
 -----------
 ```
